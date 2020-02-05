@@ -207,6 +207,9 @@ function resetBoard()
 
 function checkTie()
 {
+    if (winner != EMPTY)
+        return;
+
     for (var x = 0; x < ticTacToe.board.length; ++x)
     {
         for (var y = 0; y < ticTacToe.board[x].length; ++y)
