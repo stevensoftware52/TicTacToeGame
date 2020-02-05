@@ -1,0 +1,31 @@
+ body
+ {
+   width: 500px;
+   background-image: url("bg.png");
+   margin: auto;
+ }
+
+ .title 
+ {
+   text-align: center;
+   background: rgb(70, 70, 70);
+   color: rgb(225, 225, 225);
+   font-family: "Consolas";
+}
+
+html, body {
+   height: 100%;
+}
+
+.main
+ {
+   height: 100%;
+   width: 100%;
+   display: table;
+}
+.wrapper
+ {
+   display: table-cell;
+   height: 100%;
+   vertical-align: middle;
+}
